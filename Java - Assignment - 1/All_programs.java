@@ -815,7 +815,7 @@ public class GuessGame {
             else if(guess < target)
                 System.out.println("Too low!");
             else
-                System.out.println("Correct! 🎉");
+                System.out.println("Correct!");
 
         } while(guess != target);
     }
